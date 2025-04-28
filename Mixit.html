@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mixly intro page</title>
+        <link rel="stylesheet" href="Mixit.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- jQuery -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="mixly-header row">
+                <div class="d-flex align-items-center gap-4">
+                    <a href="index.html"> <img src="imgs/logomartini.svg" alt="Mixly Logo" class="logo" /></a>
+                    <a href="index.html" style="text-decoration: none;"><h1 class="mixly-big text-white ">Mixly</h1></a>
+                </div>
+            </div>
+            <div class="d-flex align-items-end gap-4" style="min-height: 60vh;">
+                <div class="d-flex flex-column  col-6">
+                    <h2 class="mixly-mid text-white">Let's start with a base...</h2>
+                </div>
+                <div class="col-4 d-flex flex-column ms-auto ">
+                    <button id=vodkabutton class="mixly-button alcbuttons" >Vodka</button>
+                    <button id=Tequilabutton class="mixly-button alcbuttons" >Tequila</button>
+                    <button id=Ginbutton class="mixly-button alcbuttons" >Gin</button>
+                    <button id=Rumbutton class="mixly-button alcbuttons" >Rum</button>
+                    <button id=Whiskeybutton class="mixly-button alcbuttons" >Whiskey</button>
+                    <button id=Brandybutton class="mixly-button alcbuttons" >Brandy</button>
+                </div>
+                <div class="mt-auto align-self-end ">
+                    <button id=Nextbutton class="next-button" >Next</button>
+                </div>
+            </div>
+        </div>
+        <script src="Mixit.js" defer></script>
+    </body>
+
+</html>

@@ -1,0 +1,154 @@
+
+body{
+    background-image: url(./imgs/backbase.png);
+    background-size: cover; /* Makes the image cover the whole page */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Optional: makes the background stay in place when scrolling */
+}
+
+
+h1{
+    font-family: "noto serif display";
+    color: white;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 8em;
+}
+
+h2{
+    font-family: "noto serif display";
+    color: white;
+    text-align: center;
+    font-size: 6em;
+}
+
+h3{
+    font-family: "noto serif display";
+    color: white;
+    font-size: 3em;
+}
+
+.mixly-big{
+    text-align: left;
+    font-size: 8em;
+}
+
+.mixly-mid{
+    text-align: left;
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.mixly-small{
+    text-align: left;
+    font-size: 3em;
+}
+
+.mixly-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: #013927;
+    padding: 15px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.next-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: #013927;
+    padding: 15px 40px !important;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.next-button:hover{
+    background-color: #eab555;
+    color: white;
+    transition: 350ms;
+}
+
+.selected-alcohol {
+    background-color: #eab555 !important;
+    color: #013927 !important;
+}
+
+.mixly-header{
+    padding-top: 40px;
+}
+
+.logo {
+    max-width: 125px;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.ingredient{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 2em;
+    color: white;
+    background-color: #eab555 !important;
+    border-radius: 100px !important;
+}
+
+#search{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 100px;
+    border: 5px solid white;
+    color: #013927 !important;
+    background-color: white;
+    box-shadow: none !important;
+    width: 100%;
+    outline: none;
+}
+
+#add-icon{
+    fill: #eab555 !important;        /* for shapes that use fill */
+    stroke: #eab555 !important ;      /* for shapes using stroke */
+    cursor: pointer !important;
+    transition: 1s ease;
+
+}
+
+#base-alcohol{
+    display: inline-block; 
+    font-family: 'Noto Serif Display', serif;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 100px;
+    border: 5px solid white;
+    color: #013927 !important;
+    background-color: #eab555 !important;
+    box-shadow: none !important;
+    outline: none;
+    text-align: right;
+    line-height: 1.5; /* Make the text height taller */
+    height: auto;
+}
+
+
+
+input:focus {
+    box-shadow: none !important;
+    border: 5px solid #eab555 !important;
+    transition: 350ms;
+  }
+
+
+  

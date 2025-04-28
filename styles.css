@@ -1,0 +1,82 @@
+
+
+body{
+    background-image: url(./imgs/backimage.png);
+    background-size: cover; /* Makes the image cover the whole page */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Optional: makes the background stay in place when scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "noto serif display";
+    color: white;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 8em;
+}
+
+h2{
+    font-family: "noto serif display";
+    color: white;
+    text-align: center;
+    font-size: 6em;
+}
+
+h3{
+    font-family: "noto serif display";
+    color: white;
+    font-size: 3em;
+}
+
+.mixly-big{
+    text-align: left;
+    font-size: 8em;
+}
+
+.mixly-mid{
+    text-align: left;
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.mixly-small{
+    text-align: left;
+    font-size: 3em;
+}
+
+.mixly-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: #013927;
+    padding: 15px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.mixly-button:hover{
+    background-color: #eab555;
+    color: white;
+    transition: 350ms;
+
+}
+
+.mixly-header{
+    padding-top: 40px;
+}
+
+.logo {
+    max-width: 125px;
+}
+
+
+/* sds */
+

@@ -1,0 +1,156 @@
+
+body{
+    background-color : #013927 !important;
+}
+
+
+h1{
+    font-family: "noto serif display";
+    color: white !important;
+    text-align: left;
+    margin-top: 3rem;
+
+}
+
+h2{
+    font-family: "noto serif display";
+    color: white !important;
+    text-align: center;
+    font-size: 6em !important;
+}
+
+h3{
+    font-family: "noto serif display";
+    color: white !important;
+    font-size: 3em !important;
+}
+
+ul{
+    color: white !important;
+    font-family: "noto serif display";
+    font-size: 1.5em !important;
+}
+p{
+    font-family: "noto serif display";
+    color: white !important;
+    font-size: 1.5em !important;
+}
+
+.mixly-big{
+    text-align: left;
+    font-size: 8em;
+}
+
+.mixly-mid{
+    text-align: left;
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.mixly-small{
+    text-align: left;
+    font-size: 3em;
+}
+
+.mixly-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: #013927;
+    padding: 15px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.next-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: #013927;
+    padding: 15px 40px !important;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.next-button:hover{
+    background-color: #eab555;
+    color: white;
+    transition: 350ms;
+}
+
+.selected-alcohol {
+    background-color: #eab555 !important;
+    color: #013927 !important;
+}
+
+.mixly-header{
+    padding-top: 40px;
+}
+
+.logo {
+    max-width: 125px;
+}
+
+.card h5 {
+    padding-top: 10px;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.card{
+    border-radius: 30px !important;
+    border: #eab555 5px solid !important;
+
+}
+
+.customimgborder{
+    border: 5px solid #eab555;
+    border-radius: 50%;
+    padding: 0;
+    box-sizing: border-box;
+    width: 400px; /* was 250px */
+    height: 400px; /* was 250px */
+}
+
+.customimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+
+
+input:focus {
+    box-shadow: none !important;
+    border: 5px solid #eab555 !important;
+  }
+
+  #ai-description {
+    transition: all 0.5s ease;
+    opacity: 1;
+  }
+
+.suggestionCard{
+    border-radius: 30px !important;
+    border: #eab555 5px solid !important;
+    height: 100%; /* needed for equal height in flex context */
+    flex: 1 1 300px; /* grow and shrink as needed */
+    background-color: white !important;
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+
+.mixlytext{
+    color: #013927 !important;
+    margin: 20px;
+}

@@ -1,0 +1,158 @@
+
+body{
+    background-image: url(./imgs/11.png);
+    background-size: cover; /* Makes the image cover the whole page */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Optional: makes the background stay in place when scrolling */
+}
+
+
+h1{
+    font-family: "noto serif display";
+    color: white;
+    margin-top: 1rem;
+    font-size: 8em;
+}
+
+h2{
+    font-family: "noto serif display";
+    color: white !important;
+    text-align: center;
+    font-size: 6em;
+}
+
+h3{
+    font-family: "noto serif display";
+    color: white;
+    font-size: 3em;
+}
+
+.mixly-big{
+    text-align: left;
+    font-size: 8em;
+}
+
+.mixly-mid{
+    text-align: left;
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.mixly-small{
+    text-align: left;
+    font-size: 3em;
+}
+
+.mixly-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: #013927;
+    padding: 15px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.next-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: #013927;
+    padding: 15px 40px !important;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.next-button:hover{
+    background-color: #eab555;
+    color: white;
+    transition: 350ms;
+}
+
+.selected-alcohol {
+    background-color: #eab555 !important;
+    color: #013927 !important;
+}
+
+.mixly-header{
+    padding-top: 40px;
+}
+
+.logo {
+    max-width: 125px;
+}
+
+.card h5 {
+    padding-top: 10px;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.card{
+    border-radius: 30px !important;
+    border: #eab555 5px solid !important;
+    height: 100%; /* needed for equal height in flex context */
+    flex: 1 1 300px; /* grow and shrink as needed */
+
+}
+
+.card h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: clamp(12px, 2vw, 18px); /* Auto-shrinks for longer names */
+  }
+  
+
+.customimg{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    border-radius: 700px !important;
+    
+}
+
+
+#search{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 100px;
+    border: 5px solid white;
+    color: #013927 !important;
+    background-color: white;
+    width: 100%;
+}
+
+input:focus {
+    box-shadow: none !important;
+    border: 5px solid #eab555 !important;
+  }
+
+.goback-button{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    background-color: white !important;
+    border: none;
+    border-radius: 100px;
+    color: #013927 !important;
+    padding: 15px 40px !important;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: none !important;
+    margin: 4px 2px;
+}
+
+.goback-button:hover{
+    background-color: #eab555 !important;
+    color: white !important;
+    transition: 350ms;
+}
