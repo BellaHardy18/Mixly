@@ -3,11 +3,13 @@
 **Mixly** is a cocktail generator web app that helps you create drinks based on the ingredients you already have at home!  
 Built with vanilla JavaScript, Bootstrap, and OpenAI integration, Mixly not only suggests cocktails — it uses AI to recommend fun, creative variations for each drink.
 
+[**Link to demo here**](https://redomixly.vercel.app/)
+
 Created by **Bella Hardy**.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Ingredient Picker**: Select ingredients from your bar cart or fridge.
 - **Cocktail Suggestions**: Get matching cocktail recipes based on your selected ingredients.
@@ -17,7 +19,7 @@ Created by **Bella Hardy**.
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **HTML**, **CSS** (custom + Bootstrap)
 - **JavaScript** (ES6)
@@ -27,7 +29,7 @@ Created by **Bella Hardy**.
 
 ---
 
-## 📚 How it Works
+## How it Works
 
 1. Pick a base alcohol (Vodka, Rum, Tequila, etc.).
 2. Add extra ingredients (like lime, honey, soda water).
