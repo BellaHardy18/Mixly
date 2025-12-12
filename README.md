@@ -13,7 +13,10 @@ Created by **Bella Hardy**.
 
 - **Ingredient Picker**: Select ingredients from your bar cart or fridge.
 - **Cocktail Suggestions**: Get matching cocktail recipes based on your selected ingredients.
-- **AI Variations**: Powered by GPT-4, Mixly suggests playful cocktail variations with alternate ingredients and fun descriptions.
+- **ChatGPT Integration**: Powered by GPT-4, Mixly suggests playful cocktail variations with alternate ingredients and fun descriptions.
+      - The integration is currently disabled due to API usage costs.
+      - All core application functionality works without this feature.
+      - The integration can be re-enabled by supplying a valid OpenAI API key.
 - **Responsive Design**: Works beautifully across mobile, tablet, and desktop.
 - **Smooth UX**: Dynamic autocomplete, animated search interactions, and fast loading.
 
